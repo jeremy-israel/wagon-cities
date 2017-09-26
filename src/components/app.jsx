@@ -1,5 +1,5 @@
 import React from 'react';
-import CityList from './citylist';
+import CityList from '../containers/city_list';
 
 // TODO: remove this line and use Redux
 const cities = [
@@ -11,7 +11,7 @@ const cities = [
 const App = () => {
   return (
     <div className="app">
-      <CityList cities={cities} />
+      <CityList cities={cities}/>
     </div>
   );
 };
